@@ -10,7 +10,7 @@
 	
 	<script>
 		var videoPaths = '<%= HttpUtility.JavaScriptStringEncode((string)Session["video-paths"]) %>'.split(';');
-		var videoTitles = '<%= HttpUtility.JavaScriptStringEncode((string)Session["video-titles"] %>'.split(';');
+		var videoTitles = '<%= HttpUtility.JavaScriptStringEncode((string)Session["video-titles"]) %>'.split(';');
 	</script>
 	<script src="/Scripts/batstube_app.js"></script> 
 
