@@ -1,0 +1,73 @@
+﻿/* ListBox Replacement - make scss when finalized */
+.listbox-replacement-wrapper {
+    overflow: auto;
+}
+
+.listbox-replacement thead {
+  width: 97%;
+}
+.listbox-replacement thead > tr > th,  .listbox-replacement thead > tr > td {
+  white-space: pre;
+}
+.listbox-replacement tbody > tr > td {
+  white-space: pre;
+}
+
+.listbox-replacement tbody {
+  width: 100%;
+  display: block;
+  overflow-y: auto;
+}
+
+.listbox-replacement-clickable tr {
+  cursor: pointer;
+}
+
+.listbox-replacement tr {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.listbox-replacement tr.selected, .listbox-replacement tr.selected:hover {
+  background-color: #337ab7;
+}
+
+table.listbox-replacement > tbody > tr > td {
+  display: block;
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+
+  border-bottom-width: 0;
+}
+
+table.listbox-replacement > thead > tr > th, table.listbox-replacement > thead > tr > td {
+  display: block;
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+
+  border-width: 0;
+}
+
+input.listbox-replacement-val {
+    display: none;
+}
+
+
+table.listbox-replacement tbody, table.listbox-replacement thead {
+    font-family: "Lucida Console", Monaco, monospace;
+
+    background: white;   
+}
+
+table.table-no-grid tr {
+    border-width: 0;
+}
+
+table.table-no-grid tbody td {
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+}

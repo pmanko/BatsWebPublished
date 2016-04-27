@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4168F36C-BA8B-4E40-A413-1CA28110CD80}</ProjectGuid>
+    <ProjectTypeGuids>{E1DD800B-C85F-4F85-B885-C65F5774C347};{349c5851-65df-11da-9384-00065b846f21};{535C04D7-A2A5-47c7-83E0-B340A995CD1F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputName>batsweb</OutputName>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>batsweb</RootNamespace>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Version>1.0.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Title>batsweb</Title>
+    <Product>batsweb</Product>
+    <UseIISExpress>true</UseIISExpress>
+    <ExcludeFoldersFromDeployment>node_modules</ExcludeFoldersFromDeployment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <MaxError>100</MaxError>
+    <SourceFormat>Variable</SourceFormat>
+    <DefineConstants>DEBUG</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <AdditionalDirectives>
+    </AdditionalDirectives>
+    <IncludeIisSettings>false</IncludeIisSettings>
+    <ExcludeFoldersFromDeployment>node_modules</ExcludeFoldersFromDeployment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <MaxError>100</MaxError>
+    <SourceFormat>Variable</SourceFormat>
+    <DefineConstants>DEBUG</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <AdditionalDirectives />
+    <IncludeIisSettings>false</IncludeIisSettings>
+    <ExcludeFoldersFromDeployment>node_modules</ExcludeFoldersFromDeployment>
+    <IntermediatePath>.\obj\x86\Debug\</IntermediatePath>
+    <WarningLevel>2</WarningLevel>
+    <OutputPath>Y:\wwwroot\Programs</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningLevel>2</WarningLevel>
+    <MaxError>100</MaxError>
+    <SourceFormat>Variable</SourceFormat>
+    <ExcludeFoldersFromDeployment>node_modules</ExcludeFoldersFromDeployment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningLevel>2</WarningLevel>
+    <MaxError>100</MaxError>
+    <SourceFormat>Variable</SourceFormat>
+    <ExcludeFoldersFromDeployment>node_modules</ExcludeFoldersFromDeployment>
+    <IntermediatePath>.\obj\x86\Release\</IntermediatePath>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <Name>AjaxControlToolkit</Name>
+      <HintPath>C:\Users\Sydex5\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="BatsSharedModules">
+      <Name>BatsSharedModules</Name>
+      <HintPath>..\..\..\..\..\bats99wfrelease\BatsSharedModules.dll</HintPath>
+    </Reference>
+    <Reference Include="MicroFocus.COBOL.Runtime">
+      <Name>MicroFocus.COBOL.Runtime</Name>
+    </Reference>
+    <Reference Include="MicroFocus.COBOL.RuntimeServices">
+      <Name>MicroFocus.COBOL.RuntimeServices</Name>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="breakdownnextszone.aspx" />
+    <Content Include="breakdownpark.aspx" />
+    <Content Include="breakdownparkdetail.aspx" />
+    <Content Include="breakdownpreviousszone.aspx" />
+    <Content Include="breakdownszone.aspx" />
+    <Content Include="customClips.aspx" />
+    <Content Include="ErrorPages\timeout.aspx" />
+    <Content Include="parkdetailpark.aspx" />
+    <Content Include="summaryatbatdetail.aspx" />
+    <Content Include="breakdown.aspx" />
+    <Content Include="EZvideo.aspx" />
+    <Content Include="fullatbat.aspx" />
+    <Content Include="gameSummary.aspx" />
+    <Content Include="gamesummaryszone.aspx" />
+    <Content Include="mainmenu.aspx" />
+    <Content Include="pitchervsbatter.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="summarypark.aspx" />
+    <Content Include="summaryrunners.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="batstube.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BAT360.CBL">
+      <Link>BAT360.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\Bat360SharedData.cbl">
+      <Link>Bat360SharedData.cbl</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BAT360WEBF.CBL">
+      <Link>BAT360WEBF.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BAT365.CBL">
+      <Link>BAT365.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BAT367.CBL">
+      <Link>BAT367.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BAT560CA.CBL">
+      <Link>BAT560CA.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BAT666.CBL">
+      <Link>BAT666.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\Bat666SharedData.cbl">
+      <Link>Bat666SharedData.cbl</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BAT666WEBF.CBL">
+      <Link>BAT666WEBF.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BAT667.CBL">
+      <Link>BAT667.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BAT668.CBL">
+      <Link>BAT668.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BATSIPCA.CBL">
+      <Link>BATSIPCA.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\Batsw060SharedData.cbl">
+      <Link>Batsw060SharedData.cbl</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BATSW060WEBF.CBL">
+      <Link>BATSW060WEBF.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BATSW150MG.CBL">
+      <Link>BATSW150MG.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BATSW150WEBF.CBL">
+      <Link>BATSW150WEBF.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\sydexsource\bats\BWEBFTP2.CBL">
+      <Link>BWEBFTP2.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BAT292V.CBL">
+      <Link>BAT292V.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BAT300.CBL">
+      <Link>BAT300.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\Bat300SharedData.COB">
+      <Link>Bat300SharedData.COB</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BAT300WEBF.CBL">
+      <Link>BAT300WEBF.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BAT310.CBL">
+      <Link>BAT310.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\Bat310SharedData.cbl">
+      <Link>Bat310SharedData.cbl</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BAT310WEBF.CBL">
+      <Link>BAT310WEBF.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BAT766.CBL">
+      <Link>BAT766.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\Bat766SharedData.CBL">
+      <Link>Bat766SharedData.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BAT766WEBF.CBL">
+      <Link>BAT766WEBF.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BAT767.CBL">
+      <Link>BAT767.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BAT768.CBL">
+      <Link>BAT768.CBL</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\Batsw100SharedData.COB">
+      <Link>Batsw100SharedData.COB</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\sydexsource\bats\BATSW100WEBF.CBL">
+      <Link>BATSW100WEBF.CBL</Link>
+    </Compile>
+    <Compile Include="About.aspx.cbl">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cbl">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="breakdownnextszone.aspx.cbl">
+      <DependentUpon>breakdownnextszone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="breakdownnextszone.aspx.designer.cbl">
+      <DependentUpon>breakdownnextszone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="breakdownpark.aspx.cbl">
+      <DependentUpon>breakdownpark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="breakdownpark.aspx.designer.cbl">
+      <DependentUpon>breakdownpark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="breakdownparkdetail.aspx.cbl">
+      <DependentUpon>breakdownparkdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="breakdownparkdetail.aspx.designer.cbl">
+      <DependentUpon>breakdownparkdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="breakdownpreviousszone.aspx.cbl">
+      <DependentUpon>breakdownpreviousszone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="breakdownpreviousszone.aspx.designer.cbl">
+      <DependentUpon>breakdownpreviousszone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="breakdownszone.aspx.cbl">
+      <DependentUpon>breakdownszone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="breakdownszone.aspx.designer.cbl">
+      <DependentUpon>breakdownszone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customClips.aspx.cbl">
+      <DependentUpon>customClips.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customClips.aspx.designer.cbl">
+      <DependentUpon>customClips.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPages\timeout.aspx.cbl">
+      <DependentUpon>timeout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPages\timeout.aspx.designer.cbl">
+      <DependentUpon>timeout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parkdetailpark.aspx.cbl">
+      <DependentUpon>parkdetailpark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="parkdetailpark.aspx.designer.cbl">
+      <DependentUpon>parkdetailpark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="summaryatbatdetail.aspx.cbl">
+      <DependentUpon>summaryatbatdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="summaryatbatdetail.aspx.designer.cbl">
+      <DependentUpon>summaryatbatdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="breakdown.aspx.cbl">
+      <DependentUpon>breakdown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="breakdown.aspx.designer.cbl">
+      <DependentUpon>breakdown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cbl">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cbl">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EZvideo.aspx.cbl">
+      <DependentUpon>EZvideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EZvideo.aspx.designer.cbl">
+      <DependentUpon>EZvideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fullatbat.aspx.cbl">
+      <DependentUpon>fullatbat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fullatbat.aspx.designer.cbl">
+      <DependentUpon>fullatbat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gameSummary.aspx.cbl">
+      <DependentUpon>gameSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gameSummary.aspx.designer.cbl">
+      <DependentUpon>gameSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gamesummaryszone.aspx.cbl">
+      <DependentUpon>gamesummaryszone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gamesummaryszone.aspx.designer.cbl">
+      <DependentUpon>gamesummaryszone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cbl">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="mainmenu.aspx.cbl">
+      <DependentUpon>mainmenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mainmenu.aspx.designer.cbl">
+      <DependentUpon>mainmenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pitchervsbatter.aspx.cbl">
+      <DependentUpon>pitchervsbatter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pitchervsbatter.aspx.designer.cbl">
+      <DependentUpon>pitchervsbatter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cbl">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cbl">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="batstube.aspx.cbl">
+      <DependentUpon>batstube.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="batstube.aspx.designer.cbl">
+      <DependentUpon>batstube.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="summarypark.aspx.cbl">
+      <DependentUpon>summarypark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="summarypark.aspx.designer.cbl">
+      <DependentUpon>summarypark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="summaryrunners.aspx.cbl">
+      <DependentUpon>summaryrunners.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="summaryrunners.aspx.designer.cbl">
+      <DependentUpon>summaryrunners.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\TEMPmlb1.DAT" />
+    <None Include="App_Data\TEMPmlb1.idx" />
+    <None Include="App_Data\wininet.dll" />
+    <None Include="bower.json" />
+    <None Include="dist\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <None Include="dist\fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <None Include="dist\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <None Include="dist\fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <None Include="dist\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <None Include="dist\scripts\batstube_app.js" />
+    <None Include="dist\scripts\bootstrap.min.js" />
+    <None Include="dist\scripts\callBatstube.js" />
+    <None Include="dist\scripts\fullatbat.js" />
+    <None Include="dist\scripts\summarycallatbat.js" />
+    <None Include="dist\scripts\vendor.bundle.min.js" />
+    <None Include="dist\scripts\video.js" />
+    <None Include="dist\styles\app.css" />
+    <None Include="dist\styles\batstube.css" />
+    <None Include="dist\styles\BenStyleSheet.css" />
+    <None Include="dist\styles\main.css" />
+    <None Include="dist\styles\Site.css" />
+    <None Include="dist\styles\video-js.css" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.svg" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\ZURCHBXC.TTF" />
+    <None Include="fonts\ZURCHLXC.TTF" />
+    <None Include="gulpfile.js" />
+    <None Include="Images\1288A.mp4" />
+    <None Include="Images\homeplateGREY.png" />
+    <None Include="Images\logo.png" />
+    <None Include="Images\Play.png" />
+    <None Include="Images\SydexLogo.png" />
+    <None Include="Images\szone1.bmp" />
+    <None Include="Images\szone1.png" />
+    <None Include="Images\szone2.png" />
+    <None Include="package.json" />
+    <None Include="Properties\PublishProfiles\Boston Red Sox.pubxml" />
+    <None Include="Properties\PublishProfiles\sydexdan.pubxml" />
+    <None Include="Scripts\async.js" />
+    <None Include="Scripts\batstube_app.js" />
+    <None Include="Scripts\breakdown.js" />
+    <None Include="Scripts\breakdowncallpark.js" />
+    <None Include="Scripts\customclips.js" />
+    <None Include="Scripts\ezvideo.js" />
+    <None Include="Scripts\gamesummary.js" />
+    <None Include="Scripts\listbox-replacement.js" />
+    <None Include="Scripts\modals.js" />
+    <None Include="Scripts\pitchervsbatter.js" />
+    <None Include="Scripts\summarycallatbat.js" />
+    <None Include="Scripts\callBatstube.js" />
+    <None Include="Scripts\fullatbat.js" />
+    <None Include="Scripts\video.js" />
+    <None Include="Styles\app.scss" />
+    <None Include="Styles\autocomplete.css" />
+    <None Include="Styles\batstube.css" />
+    <None Include="Styles\BenStyleSheet.css" />
+    <None Include="Styles\customclips.css" />
+    <None Include="Styles\custom_bootstrap.scss" />
+    <None Include="Styles\ezvideo.css" />
+    <None Include="Styles\fullatbat.css" />
+    <None Include="Styles\gamesummary.css" />
+    <None Include="Styles\jquery-ui.css" />
+    <None Include="Styles\listbox-replacement.css" />
+    <None Include="Styles\main.css" />
+    <None Include="Styles\breakdown.css" />
+    <None Include="Styles\pitchervsbatter.css" />
+    <None Include="Styles\summaryatbatdetail.css" />
+    <None Include="Styles\video-js.css" />
+    <None Include="Styles\video-js.swf" />
+    <None Include="Theme\stylesheets\custom.scss" />
+    <None Include="Theme\stylesheets\_variables.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="MicroFocus.COBOL.RuntimeServices" />
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Drawing.Drawing2D" />
+    <Import Include="System.Drawing.Imaging" />
+    <Import Include="System.Drawing.Text" />
+    <Import Include="System.IO" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Security.Cryptography" />
+    <Import Include="System.Text" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Styles\App_LocalResources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludeFromPackageFolders Include="node_modules">
+      <FromTarget>Project</FromTarget>
+    </ExcludeFromPackageFolders>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Micro Focus\Visual COBOL\v1.0\MicroFocus.COBOL.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

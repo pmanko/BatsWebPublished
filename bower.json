@@ -1,0 +1,30 @@
+{
+  "name": "batsweb",
+  "authors": [
+    "Piotr Mankowski <piotr.mankowski@gmail.com>"
+  ],
+  "description": "Web application for baseball statistics.",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery-validation": "~1.14.0",
+    "jquery-validation-unobtrusive": "~3.2.4",
+    "modernizr": "~3.2.0",
+    "respond": "~1.4.2",
+    "bootstrap-sass": "~3.3.5",
+    "video.js": "~5.2.0",
+    "components-font-awesome": "~4.4.0",
+    "jquery-ui": "~1.11.4"
+  }
+}

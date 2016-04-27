@@ -1,0 +1,48 @@
+
+Visual COBOL 2012 Exception Handler - 1/25/2016  10:17:32 PM
+C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe caused an exception at address : 0x1C5B05CA
+Exception type - EXCEPTION_ACCESS_VIOLATION on Write. Address 0x1C9F0000
+
+Registers:
+
+	EAX 00000001	EBX 00000000
+	ECX FFFE6FA7	EDX 0000002B
+	DS  002B	ESI 1C872BA8
+	ES  002B	EDI 1C9F0000
+	FS  0053	GS  002B
+	CS  0023	EIP 1C5B05CA
+	SS  002B	ESP 1E68E4FC	EBP 1E68E63C
+	Flags 00010216
+
+Error occurred in : C:\Program Files (x86)\Micro Focus\Visual COBOL for Visual Studio 2012\bin\check.dll, loaded at 0x1C3B0000
+
+	CompanyName Micro Focus.
+	FileDescription Checker
+	FileVersion VisualCOBOL-R9/140
+	LegalCopyright Copyright (C) Micro Focus 1984-2015. All rights reserved..
+	OriginalFileName check.dll.
+	ProductName Micro Focus COBOL 2012.
+	ProductVersion 2.2.02205
+
+Command Line : Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe" 
+
+COBOL call stack:
+
+	token	(obj program)
+	check	(obj program)
+
+Run-time : C:\Program Files (x86)\Micro Focus\Visual COBOL for Visual Studio 2012\bin\cblrtsm.dll, loaded at 0x15540000
+
+	CompanyName Micro Focus
+	FileDescription Micro Focus Run Time System Core Support
+	FileVersion VisualCOBOL-R9/140
+	LegalCopyright Copyright (C) Micro Focus 1984-2015. All rights reserved.
+	OriginalFileName cblrtsm.dll
+	ProductName Micro Focus COBOL 2012
+	ProductVersion 2.2.02205
+
+OS Information:
+
+Windows NT 6.1 (Build 7601: Service Pack 1)
+CPU: Intel Pentium Model 58 step 9, 8 processors
+Available memory - 4194303 KB

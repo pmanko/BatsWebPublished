@@ -1,0 +1,23 @@
+.btn {
+	margin-top: 5px;
+}
+/* At-Bat Table Styles*/
+#MainContent_atBatTable {
+    border-radius:5px;
+    -moz-border-radius:5px;
+    font-size: medium;
+}
+
+#MainContent_atBatTable td, #MainContent_atBatTable th {
+    padding-left: 20px;
+}
+
+#atBatTableWrapper {
+    height: 450px;
+
+}
+
+#MainContent_atBatTable thead {
+    border-bottom: 2px #ddd solid;
+}
+/***/

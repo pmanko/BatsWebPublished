@@ -1,0 +1,84 @@
+/* Game Table Styles*/
+#MainContent_gamesTable {
+    border-radius:5px;
+    -moz-border-radius:5px;
+    font-size: medium;
+}
+
+#MainContent_gamesTable tbody {
+    height: 250px;
+
+}
+
+#MainContent_gamesTable td, #MainContent_gamesTable th {
+    padding-left: 20px;
+}
+
+#MainContent_gamesTable thead {
+    border-bottom: 2px #ddd solid;
+}
+/***/
+/* current Inning Table Styles*/
+#MainContent_statsTable {
+    border-radius:5px;
+    -moz-border-radius:5px;
+    font-size: medium;
+}
+
+#MainContent_inningSummaryTable td, #MainContent_inningSummaryTable th {
+    padding-left: 20px;
+}
+
+#MainContent_inningSummaryTable tbody {
+    height: 350px;
+
+}
+
+#MainContent_inningSummaryTable thead {
+    border-bottom: 2px #ddd solid;
+}
+
+#MainContent_statsTable {
+    border-radius:5px;
+    -moz-border-radius:5px;
+    font-size: x-small;
+}
+
+#MainContent_statsTable td, #MainContent_statsTable th {
+    padding-left: 20px;
+    padding-top: 0;
+    padding-bottom:0;
+}
+
+#MainContent_statsTable tbody {
+    height: 450px;
+
+}
+
+#MainContent_statsTable thead {
+    border-bottom: 2px #ddd solid;
+}
+
+#gamesTableWrapper {
+    height: 250px;
+
+}
+
+#inningSummaryTableWrapper {
+    height: 250px;
+
+}
+
+#statsTableWrapper {
+    height: 250px;
+
+}
+
+/***/
+/* Player Button Styles*/
+
+#playerButtons .btn {
+    width: 207px;
+    word-wrap: break-word;
+    margin: 0 10px 10px 0;
+}
