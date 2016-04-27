@@ -6,5 +6,1433 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\Mike-main\c\inetpub\wwwroot\Programs</_PublishTargetUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <File Include=".vscode/settings.json">
+      <publishTime>01/25/2016 20:01:00</publishTime>
+    </File>
+    <File Include="About.aspx">
+      <publishTime>10/06/2015 13:46:08</publishTime>
+    </File>
+    <File Include="About.aspx.cbl">
+      <publishTime>10/06/2015 13:46:08</publishTime>
+    </File>
+    <File Include="About.aspx.designer.cbl">
+      <publishTime>10/06/2015 13:46:08</publishTime>
+    </File>
+    <File Include="App_Data                                                                                                                 AB.DAT">
+      <publishTime>04/15/2016 22:35:47</publishTime>
+    </File>
+    <File Include="App_Data                                                                                                                 AB.idx">
+      <publishTime>04/15/2016 22:35:47</publishTime>
+    </File>
+    <File Include="App_Data                                                                                                                 VIDIDX.DAT">
+      <publishTime>04/15/2016 22:35:47</publishTime>
+    </File>
+    <File Include="App_Data                                                                                                                 VIDIDX.idx">
+      <publishTime>04/15/2016 22:35:47</publishTime>
+    </File>
+    <File Include="App_Data/0l5xsjmzjrlajybw4marhwmmnames.txt">
+      <publishTime>12/22/2015 15:24:03</publishTime>
+    </File>
+    <File Include="App_Data/acz0ddrmverjgpj1glj0vvhaTEMP360CTL.DAT">
+      <publishTime>02/29/2016 11:00:53</publishTime>
+    </File>
+    <File Include="App_Data/acz0ddrmverjgpj1glj0vvhaTEMP360CTL.idx">
+      <publishTime>02/29/2016 11:00:53</publishTime>
+    </File>
+    <File Include="App_Data/acz0ddrmverjgpj1glj0vvhaTEMP766ROS.DAT">
+      <publishTime>02/29/2016 11:28:31</publishTime>
+    </File>
+    <File Include="App_Data/acz0ddrmverjgpj1glj0vvhaTEMP766ROS.idx">
+      <publishTime>02/29/2016 11:28:31</publishTime>
+    </File>
+    <File Include="App_Data/BPARK.TXT">
+      <publishTime>04/15/2016 22:35:47</publishTime>
+    </File>
+    <File Include="App_Data/ciy2fc1lclemarzzygxbqbnjTEMP360CTL.DAT">
+      <publishTime>03/08/2016 11:07:34</publishTime>
+    </File>
+    <File Include="App_Data/ciy2fc1lclemarzzygxbqbnjTEMP360CTL.idx">
+      <publishTime>03/08/2016 11:07:34</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/BATSW010.DAT">
+      <publishTime>08/31/2015 11:10:20</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/BATSW010.idx">
+      <publishTime>04/16/2009 18:47:36</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/BATSW020.DAT">
+      <publishTime>02/16/2016 11:04:56</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/BATSW020.idx">
+      <publishTime>02/16/2016 11:04:56</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/AB.DAT">
+      <publishTime>09/14/2015 12:02:49</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/AB.DBK">
+      <publishTime>09/09/2015 11:50:10</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/AB.IBK">
+      <publishTime>09/09/2015 11:50:10</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/AB.idx">
+      <publishTime>09/14/2015 12:02:49</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/CTL.DAT">
+      <publishTime>09/14/2015 12:03:02</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/CTL.IDX">
+      <publishTime>09/14/2015 12:03:02</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/GAME.DAT">
+      <publishTime>09/14/2015 12:02:49</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/GAME.DBK">
+      <publishTime>09/09/2015 16:34:49</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/GAME.IBK">
+      <publishTime>09/09/2015 16:34:50</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/GAME.idx">
+      <publishTime>09/14/2015 12:02:49</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/PITCH.DAT">
+      <publishTime>03/14/2006 09:43:12</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/PITCH.IDX">
+      <publishTime>03/14/2006 09:43:12</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/PLAYER.DAT">
+      <publishTime>09/14/2015 12:02:52</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/PLAYER.IDX">
+      <publishTime>09/14/2015 12:02:52</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/ROSTER.DAT">
+      <publishTime>09/14/2015 12:03:02</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/ROSTER.IDX">
+      <publishTime>09/14/2015 12:03:02</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/TEAM.DAT">
+      <publishTime>08/06/2015 10:07:38</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/TEAM.IDX">
+      <publishTime>08/06/2015 10:07:38</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/TEMPHIT2.DAT">
+      <publishTime>06/10/2014 16:48:40</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/VIDIDX.DAT">
+      <publishTime>09/14/2015 12:02:49</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MAJORS/VIDIDX.IDX">
+      <publishTime>09/14/2015 12:02:49</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/AB.DAT">
+      <publishTime>08/24/2015 16:09:22</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/AB.idx">
+      <publishTime>08/24/2015 16:09:22</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/CTL.DAT">
+      <publishTime>08/25/2015 13:38:55</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/CTL.IDX">
+      <publishTime>08/24/2015 15:45:11</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/GAME.DAT">
+      <publishTime>08/24/2015 16:09:22</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/GAME.idx">
+      <publishTime>08/24/2015 16:09:22</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/PITCH.DAT">
+      <publishTime>07/09/2004 16:41:02</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/PITCH.IDX">
+      <publishTime>07/09/2004 16:41:02</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/PLAYER.DAT">
+      <publishTime>08/25/2015 13:37:46</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/PLAYER.IDX">
+      <publishTime>08/25/2015 13:37:46</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/ROSTER.DAT">
+      <publishTime>08/25/2015 13:37:46</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/ROSTER.IDX">
+      <publishTime>08/25/2015 13:37:46</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/TEAM.DAT">
+      <publishTime>08/24/2015 15:33:53</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/TEAM.IDX">
+      <publishTime>08/24/2015 15:33:53</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/VIDIDX.DAT">
+      <publishTime>08/24/2015 16:09:25</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/MINORS/VIDIDX.IDX">
+      <publishTime>08/24/2015 16:09:25</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/TEMPmlb1.DAT">
+      <publishTime>09/10/2015 08:59:34</publishTime>
+    </File>
+    <File Include="App_Data/DEMO/WEBSYNC/TEMPmlb1.idx">
+      <publishTime>09/10/2015 08:59:34</publishTime>
+    </File>
+    <File Include="App_Data/dobq4x1wfjzcmbgzdwtugoppTEMP360CTL.DAT">
+      <publishTime>03/08/2016 11:03:44</publishTime>
+    </File>
+    <File Include="App_Data/dobq4x1wfjzcmbgzdwtugoppTEMP360CTL.idx">
+      <publishTime>03/08/2016 11:03:44</publishTime>
+    </File>
+    <File Include="App_Data/marlins/WEBSYNC/BATSW020.DAT">
+      <publishTime>02/16/2016 11:42:59</publishTime>
+    </File>
+    <File Include="App_Data/marlins/WEBSYNC/BATSW020.IDX">
+      <publishTime>02/16/2016 11:42:59</publishTime>
+    </File>
+    <File Include="App_Data/ZURCHBXC.TTF">
+      <publishTime>12/17/1998 02:28:14</publishTime>
+    </File>
+    <File Include="App_Data/ZURCHLXC.TTF">
+      <publishTime>12/17/1998 02:28:14</publishTime>
+    </File>
+    <File Include="batstube.aspx">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="batstube.aspx.cbl">
+      <publishTime>10/06/2015 13:46:22</publishTime>
+    </File>
+    <File Include="batstube.aspx.designer.cbl">
+      <publishTime>10/06/2015 13:46:22</publishTime>
+    </File>
+    <File Include="batsweb.cblproj">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="batsweb.cblproj.user">
+      <publishTime>03/10/2016 16:38:36</publishTime>
+    </File>
+    <File Include="batsweb.dep">
+      <publishTime>04/26/2016 10:27:00</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>08/10/2015 16:08:28</publishTime>
+    </File>
+    <File Include="bin/App_Data/BATSW010.DBK">
+      <publishTime>10/12/2015 15:57:33</publishTime>
+    </File>
+    <File Include="bin/App_Data/BATSW010.IBK">
+      <publishTime>10/12/2015 15:57:33</publishTime>
+    </File>
+    <File Include="bin/AxInterop.WMPLib.dll">
+      <publishTime>02/17/2016 15:10:32</publishTime>
+    </File>
+    <File Include="bin/BatsSharedModules.dll">
+      <publishTime>04/26/2016 10:27:05</publishTime>
+    </File>
+    <File Include="bin/BatsSharedModules.pdb">
+      <publishTime>02/19/2016 11:03:39</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT292V.idy">
+      <publishTime>03/09/2016 16:03:43</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT300.idy">
+      <publishTime>03/09/2016 16:03:43</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT300WEBF.idy">
+      <publishTime>03/09/2016 16:03:44</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT310.idy">
+      <publishTime>03/09/2016 16:03:44</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT310WEBF.idy">
+      <publishTime>03/09/2016 16:03:44</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT360.idy">
+      <publishTime>03/09/2016 16:03:40</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT360WEBF.idy">
+      <publishTime>03/09/2016 16:03:40</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT365.idy">
+      <publishTime>03/09/2016 16:03:41</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT367.idy">
+      <publishTime>03/09/2016 16:03:41</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT560CA.idy">
+      <publishTime>03/09/2016 16:03:41</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT666.idy">
+      <publishTime>03/09/2016 16:03:41</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT666WEBF.idy">
+      <publishTime>03/09/2016 16:03:42</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT667.idy">
+      <publishTime>03/09/2016 16:03:42</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT668.idy">
+      <publishTime>03/09/2016 16:03:42</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT766.idy">
+      <publishTime>03/09/2016 16:03:44</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT766WEBF.idy">
+      <publishTime>03/09/2016 16:03:45</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT767.idy">
+      <publishTime>03/09/2016 16:03:45</publishTime>
+    </File>
+    <File Include="bin/batsweb.BAT768.idy">
+      <publishTime>03/09/2016 16:03:46</publishTime>
+    </File>
+    <File Include="bin/batsweb.BATSIPCA.idy">
+      <publishTime>03/09/2016 16:03:42</publishTime>
+    </File>
+    <File Include="bin/batsweb.BATSW060WEBF.idy">
+      <publishTime>03/09/2016 16:03:43</publishTime>
+    </File>
+    <File Include="bin/batsweb.BATSW100WEBF.idy">
+      <publishTime>03/09/2016 16:03:46</publishTime>
+    </File>
+    <File Include="bin/batsweb.BATSW150MG.idy">
+      <publishTime>03/09/2016 16:03:43</publishTime>
+    </File>
+    <File Include="bin/batsweb.BATSW150WEBF.idy">
+      <publishTime>03/09/2016 16:03:43</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_About_0.idy">
+      <publishTime>03/09/2016 16:03:46</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_About_1.idy">
+      <publishTime>03/09/2016 16:03:46</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_Account_ChangePasswordSuccess_0.idy">
+      <publishTime>02/26/2016 08:44:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_Account_ChangePasswordSuccess_1.idy">
+      <publishTime>02/26/2016 08:44:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_Account_ChangePassword_0.idy">
+      <publishTime>02/26/2016 08:44:49</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_Account_ChangePassword_1.idy">
+      <publishTime>02/26/2016 08:44:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_Account_Login_0.idy">
+      <publishTime>02/26/2016 08:44:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_Account_Login_1.idy">
+      <publishTime>02/26/2016 08:44:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_Account_Register_0.idy">
+      <publishTime>02/26/2016 08:44:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_Account_Register_1.idy">
+      <publishTime>02/26/2016 08:44:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_atbatdetail_0.idy">
+      <publishTime>03/09/2016 16:03:48</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_atbatdetail_1.idy">
+      <publishTime>03/09/2016 16:03:48</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_bat300Data.idy">
+      <publishTime>03/09/2016 16:03:43</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_bat310Data.idy">
+      <publishTime>03/09/2016 16:03:44</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_bat360Data.idy">
+      <publishTime>03/09/2016 16:03:40</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_bat666Data.idy">
+      <publishTime>03/09/2016 16:03:41</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_bat766Data.idy">
+      <publishTime>03/09/2016 16:03:45</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_batstube_0.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_batstube_1.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_batsw060Data.idy">
+      <publishTime>03/09/2016 16:03:42</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_batsw100Data.idy">
+      <publishTime>03/09/2016 16:03:46</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdownnextszone_0.idy">
+      <publishTime>03/09/2016 16:03:46</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdownnextszone_1.idy">
+      <publishTime>03/09/2016 16:03:47</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdownparkdetail_0.idy">
+      <publishTime>03/09/2016 16:03:47</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdownparkdetail_1.idy">
+      <publishTime>03/09/2016 16:03:47</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdownpark_0.idy">
+      <publishTime>03/09/2016 16:03:47</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdownpark_1.idy">
+      <publishTime>03/09/2016 16:03:47</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdownpreviousszone.idy">
+      <publishTime>03/09/2016 16:03:47</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdownszone_0.idy">
+      <publishTime>03/09/2016 16:03:47</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdownszone_1.idy">
+      <publishTime>03/09/2016 16:03:47</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdown_0.idy">
+      <publishTime>03/09/2016 16:03:49</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_breakdown_1.idy">
+      <publishTime>03/09/2016 16:03:49</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_customClips_0.idy">
+      <publishTime>03/09/2016 16:03:48</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_customClips_1.idy">
+      <publishTime>03/09/2016 16:03:48</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_ErrorPages_timeout_0.idy">
+      <publishTime>03/09/2016 16:03:48</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_ErrorPages_timeout_1.idy">
+      <publishTime>03/09/2016 16:03:48</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_EZvideo_0.idy">
+      <publishTime>03/09/2016 16:03:49</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_EZvideo_1.idy">
+      <publishTime>03/09/2016 16:03:49</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_fullatbat_0.idy">
+      <publishTime>03/09/2016 16:03:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_fullatbat_1.idy">
+      <publishTime>03/09/2016 16:03:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_gamesummaryszone_0.idy">
+      <publishTime>03/09/2016 16:03:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_gamesummaryszone_1.idy">
+      <publishTime>03/09/2016 16:03:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_gameSummary_0.idy">
+      <publishTime>03/09/2016 16:03:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_gameSummary_1.idy">
+      <publishTime>03/09/2016 16:03:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_Global.idy">
+      <publishTime>03/09/2016 16:03:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_mainmenu_0.idy">
+      <publishTime>03/09/2016 16:03:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_mainmenu_1.idy">
+      <publishTime>03/09/2016 16:03:50</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_parkdetailpark_0.idy">
+      <publishTime>03/09/2016 16:03:48</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_parkdetailpark_1.idy">
+      <publishTime>03/09/2016 16:03:48</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_pitchervsbatter_0.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_pitchervsbatter_1.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_SiteMaster_0.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_SiteMaster_1.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_summarypark_0.idy">
+      <publishTime>03/09/2016 16:03:47</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_summarypark_1.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_summarypark_2.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_summaryrunners_0.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb_summaryrunners_1.idy">
+      <publishTime>03/09/2016 16:03:51</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb__Default_0.idy">
+      <publishTime>03/09/2016 16:03:49</publishTime>
+    </File>
+    <File Include="bin/batsweb.batsweb__Default_1.idy">
+      <publishTime>03/09/2016 16:03:49</publishTime>
+    </File>
+    <File Include="bin/batsweb.BWEBFTP2.idy">
+      <publishTime>03/09/2016 16:03:43</publishTime>
+    </File>
+    <File Include="bin/batsweb.dll">
+      <publishTime>04/26/2016 16:36:10</publishTime>
+    </File>
+    <File Include="bin/batsweb.pdb">
+      <publishTime>03/09/2016 16:03:53</publishTime>
+    </File>
+    <File Include="bin/Interop.WMPLib.dll">
+      <publishTime>04/04/2016 13:13:43</publishTime>
+    </File>
+    <File Include="bin/redsox/WEBSYNC/BATSW020.DAT">
+      <publishTime>03/08/2016 10:02:44</publishTime>
+    </File>
+    <File Include="bin/redsox/WEBSYNC/BATSW020.DBK">
+      <publishTime>03/08/2016 10:43:42</publishTime>
+    </File>
+    <File Include="bin/redsox/WEBSYNC/BATSW020.IBK">
+      <publishTime>03/08/2016 10:43:42</publishTime>
+    </File>
+    <File Include="bin/redsox/WEBSYNC/BATSW020.idx">
+      <publishTime>03/08/2016 10:02:44</publishTime>
+    </File>
+    <File Include="bin/WinMedia1.dll">
+      <publishTime>03/30/2016 12:02:29</publishTime>
+    </File>
+    <File Include="bin/WinMedia1.exe">
+      <publishTime>04/20/2016 10:24:27</publishTime>
+    </File>
+    <File Include="bin/WinMedia1.pdb">
+      <publishTime>02/19/2016 16:49:48</publishTime>
+    </File>
+    <File Include="bin/ZURCHBXC.TTF">
+      <publishTime>12/17/1998 02:28:14</publishTime>
+    </File>
+    <File Include="bin/ZURCHLXC.TTF">
+      <publishTime>12/17/1998 02:28:14</publishTime>
+    </File>
+    <File Include="bluejays/WEBSYNC/BATSW020.DAT">
+      <publishTime>03/01/2016 18:12:44</publishTime>
+    </File>
+    <File Include="bluejays/WEBSYNC/BATSW020.IDX">
+      <publishTime>03/01/2016 18:12:44</publishTime>
+    </File>
+    <File Include="bower.json">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="breakdown.aspx">
+      <publishTime>04/26/2016 16:35:50</publishTime>
+    </File>
+    <File Include="breakdown.aspx.cbl">
+      <publishTime>04/26/2016 15:37:49</publishTime>
+    </File>
+    <File Include="breakdown.aspx.designer.cbl">
+      <publishTime>04/26/2016 16:33:05</publishTime>
+    </File>
+    <File Include="breakdownnextszone.aspx">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="breakdownnextszone.aspx.cbl">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="breakdownnextszone.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="breakdownpark.aspx">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="breakdownpark.aspx.cbl">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="breakdownpark.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="breakdownparkdetail.aspx">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="breakdownparkdetail.aspx.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="breakdownparkdetail.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="breakdownpreviousszone.aspx">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="breakdownpreviousszone.aspx.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="breakdownpreviousszone.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="breakdownszone.aspx">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="breakdownszone.aspx.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="breakdownszone.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="customClips.aspx">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="customClips.aspx.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="customClips.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/15/2016 22:35:47</publishTime>
+    </File>
+    <File Include="Default.aspx.cbl">
+      <publishTime>04/25/2016 10:59:08</publishTime>
+    </File>
+    <File Include="Default.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:47</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/BATSW020.DAT">
+      <publishTime>04/07/2016 16:48:23</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/BATSW020.DBK">
+      <publishTime>04/07/2016 16:48:23</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/BATSW020.IBK">
+      <publishTime>04/07/2016 16:48:23</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/BATSW020.idx">
+      <publishTime>04/07/2016 16:48:23</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/ab.dat">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/ab.DBK">
+      <publishTime>02/29/2016 12:09:43</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/ab.IBK">
+      <publishTime>02/29/2016 12:09:43</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/ab.idx">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/ctl.dat">
+      <publishTime>02/29/2016 12:16:57</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/ctl.idx">
+      <publishTime>02/29/2016 12:16:57</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/game.dat">
+      <publishTime>02/29/2016 12:21:24</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/GAME.DBK">
+      <publishTime>03/04/2016 15:53:41</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/GAME.IBK">
+      <publishTime>03/04/2016 15:53:41</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/game.idx">
+      <publishTime>02/29/2016 12:21:24</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/gstat.dat">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/gstat.idx">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/line.dat">
+      <publishTime>02/29/2016 11:26:42</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/line.idx">
+      <publishTime>02/29/2016 11:26:42</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/PITCH.DAT">
+      <publishTime>02/29/2016 11:26:43</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/pitch.idx">
+      <publishTime>02/29/2016 11:26:43</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/player.dat">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/player.idx">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/roster.dat">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/roster.idx">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/team.dat">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/team.idx">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/TEMPHIT2.DAT">
+      <publishTime>02/29/2016 11:26:47</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/UPCUC.DAT">
+      <publishTime>09/03/2015 13:28:35</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/UPCUC.IDX">
+      <publishTime>09/03/2015 13:28:35</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/UPLEZ.DAT">
+      <publishTime>10/23/2015 16:22:40</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/UPLEZ.IDX">
+      <publishTime>10/23/2015 16:22:40</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/VIDIDX.DAT">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/VIDIDX.DBK">
+      <publishTime>02/29/2016 12:11:20</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/VIDIDX.IBK">
+      <publishTime>02/29/2016 12:11:20</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MAJORS/VIDIDX.idx">
+      <publishTime>02/29/2016 11:57:46</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/ab.dat">
+      <publishTime>02/08/2016 19:28:15</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/ab.idx">
+      <publishTime>02/08/2016 19:28:15</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/ctl.dat">
+      <publishTime>02/08/2016 19:26:50</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/ctl.idx">
+      <publishTime>02/08/2016 19:26:51</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/game.dat">
+      <publishTime>02/08/2016 19:28:15</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/game.idx">
+      <publishTime>02/08/2016 19:28:15</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/gstat.dat">
+      <publishTime>06/24/2004 17:07:12</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/gstat.idx">
+      <publishTime>06/24/2004 17:07:12</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/line.dat">
+      <publishTime>06/30/2004 15:36:04</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/line.idx">
+      <publishTime>06/30/2004 15:36:04</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/PITCH.DAT">
+      <publishTime>02/08/2016 19:26:53</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/pitch.idx">
+      <publishTime>02/08/2016 19:26:54</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/player.dat">
+      <publishTime>02/08/2016 19:26:54</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/player.DBK">
+      <publishTime>01/21/2016 10:38:16</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/player.IBK">
+      <publishTime>01/21/2016 10:38:16</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/player.idx">
+      <publishTime>02/08/2016 19:26:55</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/roster.dat">
+      <publishTime>02/08/2016 19:26:55</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/roster.idx">
+      <publishTime>02/08/2016 19:26:56</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/team.dat">
+      <publishTime>02/08/2016 19:26:56</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/team.idx">
+      <publishTime>02/08/2016 19:26:57</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/VIDIDX.DAT">
+      <publishTime>02/08/2016 19:28:15</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/VIDIDX.DBK">
+      <publishTime>02/08/2016 17:37:01</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/VIDIDX.IBK">
+      <publishTime>02/08/2016 17:37:01</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/MINORS/VIDIDX.idx">
+      <publishTime>02/08/2016 19:28:15</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/UPCUC.DAT">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/UPCUC.IDX">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/UPLEZ.DAT">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/UPLEZ.IDX">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/UPLSYNC.DAT">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="demo/WEBSYNC/UPLSYNC.IDX">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="dist/fonts/bootstrap/glyphicons-halflings-regular.eot">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/fonts/bootstrap/glyphicons-halflings-regular.svg">
+      <publishTime>12/22/2015 16:09:09</publishTime>
+    </File>
+    <File Include="dist/fonts/bootstrap/glyphicons-halflings-regular.ttf">
+      <publishTime>12/22/2015 16:09:07</publishTime>
+    </File>
+    <File Include="dist/fonts/bootstrap/glyphicons-halflings-regular.woff">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/fonts/bootstrap/glyphicons-halflings-regular.woff2">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/fonts/fontawesome-webfont.eot">
+      <publishTime>12/22/2015 16:09:05</publishTime>
+    </File>
+    <File Include="dist/fonts/fontawesome-webfont.svg">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/fonts/fontawesome-webfont.ttf">
+      <publishTime>12/22/2015 16:09:07</publishTime>
+    </File>
+    <File Include="dist/fonts/fontawesome-webfont.woff">
+      <publishTime>12/22/2015 16:09:09</publishTime>
+    </File>
+    <File Include="dist/fonts/fontawesome-webfont.woff2">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/fonts/FontAwesome.otf">
+      <publishTime>12/22/2015 16:09:09</publishTime>
+    </File>
+    <File Include="dist/scripts/angular.bundle.min.js">
+      <publishTime>12/22/2015 16:09:06</publishTime>
+    </File>
+    <File Include="dist/scripts/batstube_app.js">
+      <publishTime>02/24/2016 01:04:28</publishTime>
+    </File>
+    <File Include="dist/scripts/bootstrap.min.js">
+      <publishTime>12/22/2015 16:09:06</publishTime>
+    </File>
+    <File Include="dist/scripts/callBatstube.js">
+      <publishTime>12/22/2015 16:09:07</publishTime>
+    </File>
+    <File Include="dist/scripts/fullatbat.js">
+      <publishTime>12/22/2015 16:09:09</publishTime>
+    </File>
+    <File Include="dist/scripts/jquery.bundle.min.js">
+      <publishTime>12/22/2015 16:09:07</publishTime>
+    </File>
+    <File Include="dist/scripts/summarycallatbat.js">
+      <publishTime>12/22/2015 16:09:07</publishTime>
+    </File>
+    <File Include="dist/scripts/video.js">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/scripts/videojs.bundle.min.js">
+      <publishTime>12/22/2015 16:09:05</publishTime>
+    </File>
+    <File Include="dist/styles/app.css">
+      <publishTime>12/22/2015 16:09:15</publishTime>
+    </File>
+    <File Include="dist/styles/autocomplete.css">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/styles/batstube.css">
+      <publishTime>12/22/2015 16:09:06</publishTime>
+    </File>
+    <File Include="dist/styles/BenStyleSheet.css">
+      <publishTime>12/22/2015 16:09:09</publishTime>
+    </File>
+    <File Include="dist/styles/font-awesome.min.css">
+      <publishTime>12/22/2015 16:09:06</publishTime>
+    </File>
+    <File Include="dist/styles/font/VideoJS.eot">
+      <publishTime>12/22/2015 16:09:05</publishTime>
+    </File>
+    <File Include="dist/styles/font/VideoJS.svg">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/styles/font/VideoJS.ttf">
+      <publishTime>12/22/2015 16:09:07</publishTime>
+    </File>
+    <File Include="dist/styles/font/VideoJS.woff">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/styles/fullatbat.css">
+      <publishTime>12/22/2015 16:09:09</publishTime>
+    </File>
+    <File Include="dist/styles/jquery-ui.css">
+      <publishTime>12/22/2015 16:09:08</publishTime>
+    </File>
+    <File Include="dist/styles/main.css">
+      <publishTime>12/22/2015 16:09:09</publishTime>
+    </File>
+    <File Include="dist/styles/Site.css">
+      <publishTime>12/22/2015 16:09:07</publishTime>
+    </File>
+    <File Include="dist/styles/video-js.css">
+      <publishTime>12/22/2015 16:09:09</publishTime>
+    </File>
+    <File Include="dist/styles/video-js.min.css">
+      <publishTime>12/22/2015 16:09:06</publishTime>
+    </File>
+    <File Include="dist/swf/video-js.swf">
+      <publishTime>12/22/2015 16:09:05</publishTime>
+    </File>
+    <File Include="docs/bootstrap_setup.md">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="ErrorPages/timeout.aspx">
+      <publishTime>04/25/2016 15:09:28</publishTime>
+    </File>
+    <File Include="ErrorPages/timeout.aspx.cbl">
+      <publishTime>04/15/2016 22:35:48</publishTime>
+    </File>
+    <File Include="ErrorPages/timeout.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:48</publishTime>
+    </File>
+    <File Include="EZvideo.aspx">
+      <publishTime>04/15/2016 22:35:47</publishTime>
+    </File>
+    <File Include="EZvideo.aspx.cbl">
+      <publishTime>04/15/2016 22:35:48</publishTime>
+    </File>
+    <File Include="EZvideo.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:48</publishTime>
+    </File>
+    <File Include="fonts/ZURCHBXC.TTF">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="fonts/ZURCHLXC.TTF">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="fullatbat.aspx">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="fullatbat.aspx.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="fullatbat.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="gameSummary.aspx">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="gameSummary.aspx.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="gameSummary.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="gamesummaryszone.aspx">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="gamesummaryszone.aspx.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="gamesummaryszone.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/06/2015 13:46:09</publishTime>
+    </File>
+    <File Include="Global.asax.cbl">
+      <publishTime>04/15/2016 22:35:48</publishTime>
+    </File>
+    <File Include="gulpfile.js">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="Images/1288A.mp4">
+      <publishTime>10/06/2015 13:46:12</publishTime>
+    </File>
+    <File Include="Images/1289A.mp4">
+      <publishTime>10/06/2015 13:46:15</publishTime>
+    </File>
+    <File Include="Images/1290A.mp4">
+      <publishTime>10/06/2015 13:46:17</publishTime>
+    </File>
+    <File Include="Images/1291A.mp4">
+      <publishTime>10/06/2015 13:46:19</publishTime>
+    </File>
+    <File Include="Images/360P9.png">
+      <publishTime>04/15/2016 22:35:48</publishTime>
+    </File>
+    <File Include="Images/anaheim.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/astros.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/batl.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/batl2.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/batlc.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/batlc2.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/batr.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/batr2.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/batrc.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/batrc2.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/BatsSmallMenu.exe">
+      <publishTime>04/15/2016 22:35:48</publishTime>
+    </File>
+    <File Include="Images/bluejays.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/braves.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/brewers.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/Cards.png">
+      <publishTime>04/15/2016 22:35:48</publishTime>
+    </File>
+    <File Include="Images/comiskey.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/coors.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/cubs.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/dbacks.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/dodgers.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/drays.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/expos.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/fenway.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/FullAtBatMatchups.dll">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/giants.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/HLKey2.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/homeplateGREY.png">
+      <publishTime>10/06/2015 13:46:20</publishTime>
+    </File>
+    <File Include="Images/if1.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/ifdark.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/jacobs.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/logo.png">
+      <publishTime>10/06/2015 13:46:20</publishTime>
+    </File>
+    <File Include="Images/mariners.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/marlins.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/mets.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/nationals.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/oakland.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/oaklandnew1.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/of2.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/of3.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/of4.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/OFINPUT.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/orioles.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/OutfieldDark.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/padres.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/Phillies.png">
+      <publishTime>04/15/2016 22:35:49</publishTime>
+    </File>
+    <File Include="Images/pirates.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/pitch-1.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/pitch-1sm.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/Play.png">
+      <publishTime>10/06/2015 13:46:19</publishTime>
+    </File>
+    <File Include="Images/rangers.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/reds.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/royals.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/runnerfield.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/SydexLogo.png">
+      <publishTime>10/06/2015 13:46:20</publishTime>
+    </File>
+    <File Include="Images/szone1.bmp">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/szone1.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/szone1c.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/szone2.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/szone2c.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/test.mov">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/Thumbs.db">
+      <publishTime>02/28/2016 14:43:53</publishTime>
+    </File>
+    <File Include="Images/tigers.png">
+      <publishTime>04/15/2016 22:35:50</publishTime>
+    </File>
+    <File Include="Images/twins.png">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Images/yankees.png">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="mainmenu.aspx">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="mainmenu.aspx.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="mainmenu.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="mainmenu2.aspx">
+      <publishTime>10/06/2015 13:46:26</publishTime>
+    </File>
+    <File Include="mainmenu2.aspx.cbl">
+      <publishTime>10/06/2015 13:46:26</publishTime>
+    </File>
+    <File Include="mainmenu2.aspx.designer.cbl">
+      <publishTime>10/06/2015 13:46:26</publishTime>
+    </File>
+    <File Include="mfdebug.log">
+      <publishTime>01/25/2016 22:17:25</publishTime>
+    </File>
+    <File Include="mike-main/c/work/web1.deploy-readme.txt">
+      <publishTime>03/04/2016 15:03:36</publishTime>
+    </File>
+    <File Include="mike-main/c/work/web1.deploy.cmd">
+      <publishTime>03/04/2016 15:03:36</publishTime>
+    </File>
+    <File Include="mike-main/c/work/web1.SetParameters.xml">
+      <publishTime>03/04/2016 15:03:36</publishTime>
+    </File>
+    <File Include="mike-main/c/work/web1.SourceManifest.xml">
+      <publishTime>03/04/2016 15:03:31</publishTime>
+    </File>
+    <File Include="mike-main/c/work/web1.zip">
+      <publishTime>03/04/2016 15:03:46</publishTime>
+    </File>
+    <File Include="node_install.bash">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="parkdetailpark.aspx">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="parkdetailpark.aspx.cbl">
+      <publishTime>04/15/2016 22:35:53</publishTime>
+    </File>
+    <File Include="parkdetailpark.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="pitchervsbatter.aspx">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="pitchervsbatter.aspx.cbl">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="pitchervsbatter.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/Boston Red Sox.pubxml">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/Boston Red Sox.pubxml.user">
+      <publishTime>04/26/2016 15:40:37</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/sydexdan.pubxml">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/sydexdan.pubxml.user">
+      <publishTime>03/09/2016 11:16:22</publishTime>
+    </File>
+    <File Include="Properties/Resources.Designer.cbl">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Properties/Resources.resx">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Properties/Settings.Designer.cbl">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Properties/Settings.settings">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="redsox/WEBSYNC/BATSW020.DAT">
+      <publishTime>03/08/2016 10:02:44</publishTime>
+    </File>
+    <File Include="redsox/WEBSYNC/BATSW020.DBK">
+      <publishTime>03/08/2016 10:43:42</publishTime>
+    </File>
+    <File Include="redsox/WEBSYNC/BATSW020.IBK">
+      <publishTime>03/08/2016 10:43:42</publishTime>
+    </File>
+    <File Include="redsox/WEBSYNC/BATSW020.idx">
+      <publishTime>03/08/2016 10:02:44</publishTime>
+    </File>
+    <File Include="Scripts/async.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/batstube_app.js">
+      <publishTime>04/18/2016 11:16:49</publishTime>
+    </File>
+    <File Include="Scripts/breakdown.js">
+      <publishTime>04/26/2016 15:12:43</publishTime>
+    </File>
+    <File Include="Scripts/breakdowncallpark.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/callBatstube.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/customclips.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/ezvideo.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/fullatbat.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/gamesummary.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/listbox-replacement.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/modals.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/pitchervsbatter.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/summaryatbatdetail.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/summarycallatbat.js">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Scripts/video.js">
+      <publishTime>10/06/2015 13:46:21</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Site.Master.cbl">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Site.Master.designer.cbl">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Styles/app.scss">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Styles/autocomplete.css">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Styles/batstube.css">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Styles/BenStyleSheet.css">
+      <publishTime>10/06/2015 13:46:21</publishTime>
+    </File>
+    <File Include="Styles/breakdown.css">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Styles/customclips.css">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/custom_bootstrap.scss">
+      <publishTime>04/15/2016 22:35:51</publishTime>
+    </File>
+    <File Include="Styles/ezvideo.css">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/fullatbat.css">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/gamesummary.css">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/gamesummary.js">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/jquery-ui.css">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/listbox-replacement.css">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/main.css">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/pitchervsbatter.css">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>10/06/2015 13:46:21</publishTime>
+    </File>
+    <File Include="Styles/summaryatbatdetail.css">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Styles/video-js.css">
+      <publishTime>10/06/2015 13:46:22</publishTime>
+    </File>
+    <File Include="Styles/video-js.swf">
+      <publishTime>10/06/2015 13:46:22</publishTime>
+    </File>
+    <File Include="summaryatbatdetail.aspx">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="summaryatbatdetail.aspx.cbl">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="summaryatbatdetail.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:55</publishTime>
+    </File>
+    <File Include="summarypark.aspx">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="summarypark.aspx.cbl">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="summarypark.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="summaryrunners.aspx">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="summaryrunners.aspx.cbl">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="summaryrunners.aspx.designer.cbl">
+      <publishTime>04/15/2016 22:35:54</publishTime>
+    </File>
+    <File Include="Theme/stylesheets/awesome-bootstrap-checkbox.scss">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Theme/stylesheets/custom.scss">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Theme/stylesheets/_variables.scss">
+      <publishTime>04/15/2016 22:35:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/18/2016 09:15:56</publishTime>
+    </File>
+    <File Include="Web.Debug.config">
+      <publishTime>10/06/2015 13:46:22</publishTime>
+    </File>
+    <File Include="Web.Release.config">
+      <publishTime>10/06/2015 13:46:22</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

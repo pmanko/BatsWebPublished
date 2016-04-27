@@ -64,7 +64,7 @@
            if team = teamDropDownList::Items[aa]::ToString
                set teamDropDownList::SelectedIndex to aa
                go to 10-done.
-           if self::Request::QueryString::ToString = teamDropDownList::Items[aa]::ToString
+           if self::Request::QueryString::ToString::Replace("_", " ") = teamDropDownList::Items[aa]::ToString
                set teamDropDownList::SelectedIndex to aa
                go to 10-done.
            add 1 to aa
