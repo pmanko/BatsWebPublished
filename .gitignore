@@ -1,0 +1,5 @@
+demo/*
+Properties/PublishProfiles/*
+Thumbs.db
+*.zip
+App_Data/*
