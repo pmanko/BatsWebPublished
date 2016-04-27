@@ -1,0 +1,19 @@
+﻿.jumbotron {
+    margin-top: 70px;
+}
+
+.navbar-right {
+    margin-right: 0px;
+}
+
+.video-js.vjs-default-skin .vjs-big-play-button {  }
+/*.vjs-loading-spinner {display:none !important;}*/
+
+#playlist .list-group {
+    max-height: 36em;
+    overflow: auto;
+}
+
+#main_video {
+    margin-top: 85px;
+}

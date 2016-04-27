@@ -1,0 +1,9 @@
+﻿#pitchListTable tbody {
+    max-height: 330px;
+
+}
+
+#pitchListTableWrapper {
+    height: 330px;
+
+}
