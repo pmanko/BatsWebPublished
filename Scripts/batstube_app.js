@@ -1,4 +1,8 @@
-﻿var VidApp = angular.module('VidApp', ['ngRoute']);
+﻿$(function() {
+   
+});
+
+var VidApp = angular.module('VidApp', ['ngRoute']);
 
 VidApp.controller('PathCtrl', ['$scope', function ($scope) {
 
@@ -38,6 +42,32 @@ VidApp.controller('VideoCtrl', ['$scope', '$http', '$location', function ($scope
     //console.log(videoPaths);
     //console.log(videoTitles);
 
+
+    $(document).on("keydown", function(event){
+        
+        if(event.which == 32) { // SPACE
+            event.preventDefault();
+            $scope.pause();
+        } 
+        else if(event.which == 37 || event.which == 65) { // LEFT
+            event.preventDefault();
+            $scope.stepBack();
+        }
+        else if(event.which == 38 || event.which == 87) { // UP
+            event.preventDefault();
+            $scope.play();
+        }
+        else if (event.which == 39 || event.which == 68) { // RIGHT
+            event.preventDefault();
+            $scope.stepForward();
+        }
+        
+        else if (event.which == 40 || event.which == 83) { // DOWN
+            event.preventDefault();
+            $scope.slow();
+        }
+        
+    });
 
     
 
@@ -82,14 +112,21 @@ VidApp.controller('VideoCtrl', ['$scope', '$http', '$location', function ($scope
     $scope.model.currentVideo = $scope.sentVideos[0];
 
     videojs("main_vid", { "controls": true, "autoplay": false, "preload": "auto",  techOrder: ["html5", "flash"] }, function () {
+        this.trigger("loadstart");
+
         this.src([{ type: "video/mp4", src: $scope.model.currentVideo.path }]);
+        this.errorDisplay.close();
+
         this.play();
+        
+        
+        
         
         this.on('ended', function () {
             $scope.$apply(function () {
                 var next_vid_index = ($scope.sentVideos.indexOf($scope.model.currentVideo) + 1) % $scope.sentVideos.length;
                 $scope.setCurrentVideo($scope.sentVideos[next_vid_index]);
-
+ 
             });
         });
     });
@@ -166,8 +203,12 @@ VidApp.controller('VideoCtrl', ['$scope', '$http', '$location', function ($scope
     $scope.pause = function () {
         videojs("main_vid").ready(function () {
             var myvid = this;
-
-            this.pause();
+            
+            if(myvid.paused()) {
+                myvid.play();           
+            } else {
+                myvid.pause();
+            } 
         });
     };
 }]);
