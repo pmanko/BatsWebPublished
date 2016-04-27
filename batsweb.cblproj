@@ -422,7 +422,7 @@
     <None Include="Images\szone1.png" />
     <None Include="Images\szone2.png" />
     <None Include="package.json" />
-    <None Include="Properties\PublishProfiles\Boston Red Sox.pubxml" />
+    <None Include="Properties\PublishProfiles\Local Publish.pubxml" />
     <None Include="Properties\PublishProfiles\sydexdan.pubxml" />
     <None Include="Scripts\async.js" />
     <None Include="Scripts\batstube_app.js" />
